@@ -29,7 +29,7 @@ defmodule Eliver.Mixfile do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.27", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.30", only: :dev, runtime: false}
     ]
   end
 end
