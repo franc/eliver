@@ -27,7 +27,7 @@ defmodule Eliver.Git do
   end
 
   def on_master? do
-    current_branch() == "master"
+    current_branch() in ["master", "main"] 
   end
 
   def fetch! do
