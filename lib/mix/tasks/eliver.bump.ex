@@ -68,7 +68,7 @@ defmodule Mix.Tasks.Eliver.Bump do
 
   defp continue_on_branch? do
     question =
-      "You are not on master. It is not recommended to create releases from a branch unless they're maintenance releases. Continue?"
+      "You are not on main or master. It is not recommended to create releases from a branch unless they're maintenance releases. Continue?"
 
     result = ask(question, false)
 
